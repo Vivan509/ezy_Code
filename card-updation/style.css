@@ -1,0 +1,40 @@
+.products::-webkit-scrollbar{
+    display: none;
+}
+
+.categories::-webkit-scrollbar{
+    display: none;
+}
+
+.populars::-webkit-scrollbar{
+    display: none;
+}
+
+.shader{
+    background: linear-gradient(to right bottom, #69628a, #040309);
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.my-para {
+    font-family: 'gilroy';
+    font: 500;
+    font-size: 17.5px;
+    position: absolute;
+    bottom: 12.5%;
+    right: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #FFFF;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+    animation: slideIn 0.5s ease forwards;;
+}
